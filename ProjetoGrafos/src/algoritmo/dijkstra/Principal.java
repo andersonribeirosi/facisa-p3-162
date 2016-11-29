@@ -11,17 +11,6 @@ public class Principal {
 	            {99999, 99999, 15, 4, 99999}
 	        };
 	        
-//	        for (int j = 0; j < mat.length; j++) {
-//	            for (int i = 0; i < mat[j].length; i++) {
-//	                if(mat[j][i]==99999){
-//	                    System.out.print(" "+"INF");
-//	                }else{
-//	                    System.out.print(" " + mat[j][i]);
-//	                }                
-//	            }
-//	            System.out.println("");
-//	        }
-	        
 	        Floyd floyd  = new Floyd();
 	        matriz = floyd.algoritmoFloyd(matriz);
 	        
